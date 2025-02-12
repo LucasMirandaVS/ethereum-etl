@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ethereum-etl"
+version = "0.1.0"
+description = "Pipeline ETL para dados da Ethereum"
+authors = ["Lucas <lucas-mvs@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "ethereum_etl"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.32.3"
+boto3 = "^1.36.18"
+psycopg2 = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
