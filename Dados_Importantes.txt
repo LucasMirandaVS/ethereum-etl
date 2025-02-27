@@ -1,0 +1,5 @@
+database = database-rds-api
+username = postgres
+senha = master123
+initial database name = projeto2
+chave = 2fae54c7-dc36-4db9-86ba-9d980591c0ee
